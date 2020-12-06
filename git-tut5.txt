@@ -1,0 +1,23 @@
+Branching.
+Image for post
+Image for post
+
+These is a little advanced for basic but I feel it lies on a thin line between basic and advanced. Let’s assume you’re working on a huge project and want to add an experimental feature. You’re not sure if it’ll work or will be accepted, you can branch off your main tree by creating a new branch and working on that branch instead. Think of it hypothetically as how a tree has branches, but when you branch off from the main branch however, you can be satisfied with the experimental features and decide to merge the two branches. In the image above, the two green dots branch off the purple branch and and when satisfied with the features, it’s merged back into the purple branch.
+
+You can create as many branches as you like, to create a branch, use the following command.
+
+git branch branchname
+
+To view see the list of branches the project has, use the following command.
+
+git branch --list
+
+The branch in green and marked with an asterisk is the the branch you’re currently working on. You can switch between branches, commit different layers of code changes and log the history of either. To switch between branches, use the following command.
+
+git checkout branchname
+
+Your Git bash should look similar to mine below.
+Image for post
+Image for post
+
+With this basic knowledge about Git, you can now use it to share code with a team of developers, keep track of their changes, commit changes to your project, authorize contributors, create experimental features with branches, merge code, pull code for templates and code snippets. These are very useful functionalities in developers day to day lives. You may need a particular form of functionality and a someone helpful somewhere has posted the code you need on GitHub or BitBucked. You can get these helpful code snippets by forking them on GitHub.
