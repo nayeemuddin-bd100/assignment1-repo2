@@ -16,4 +16,4 @@ Every change you make is tracked in a repository, so to use git this will be the
 
 git init
 
-This will create the hidden git folder as you can see in the screenshot of my explorer.
+This will create the hidden git folder
