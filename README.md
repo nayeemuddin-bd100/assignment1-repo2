@@ -6,4 +6,4 @@ Follow me on GitHub to see some projects I work on, code snippets I share and a 
 
 This ariticle is written by [onejohi](https://medium.com/@onejohi)
 I am just copied this article for practice purpose only ...
-You can read this article from [Github](https://medium.com/@onejohi/git-understanding-the-basics-ba004a20dacc) as well ...!!
+You can read this article from [Medium](https://medium.com/@onejohi/git-understanding-the-basics-ba004a20dacc) as well ...!!
