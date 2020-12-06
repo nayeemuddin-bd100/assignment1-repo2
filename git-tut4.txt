@@ -1,0 +1,35 @@
+Uploading your code to GitHub.
+
+To share your code so as it can be accessible online, you can upload it to GitHub or BitBucket. As a tip to NodeJS developers, please do not upload your node_modules folder. This folder mostly is heavy and unnecessary. These dependencies that are installed into the node_modules folder are contained in the package.json file. It is much easier to pull your code to a different machine then perform an npm install command to install the modules listed in the dependencies property.
+
+Git has a default file where you can list out folders and files you wouldn’t want to upload called the .gitignore file. All these files listed in this .gitignore file are totally ignored when items are being uploaded. You can add the file names simply by using the echo command in your terminal as shown below.
+
+echo node_modules >> .gitignore
+
+Once you sign up for any of these two services, select the option “new repository” as shown in the screenshot of my GitHub account.
+Image for post
+Image for post
+
+Give the repository a name, and a description if you want to describe your project. In GitHub, it costs around $7 a month to keep your repositories private but in BitBucket, you can have private repositories for free. Private repositories cannot be pulled without express authorization from the owner while public repositories are free to be pulled by anyone.
+
+You can initialize your project with a .README file that will be displayed right below your project home directory. The .readme file can contain more information about your project, how to use it, progress and any other kind of information that cannot fit in the description.
+
+To link your remote git repository to your online repository on GitHub or BitBucket, you attach an origin to your remote git project to specify the origin will be hosted online. You’ll use this command.
+
+git remote add origin https://github.com/itonnie/repositoryname.git
+
+To quickly add origins, just remember your GitHub or BitBucket username, add a slash and the repository name of the repository you created. When naming a repository, don’t add the .git, it’s added by default when you simply add the name like repositoryname.
+
+To push the code to your repo, use the following command.
+
+git push -u origin master
+
+This will push your app to the master branch…
+
+To pull the code from a different machine, you’ll initialize an empty git repository then use the following command to pull the repo.
+
+git pull https://github.com/itonnie/repositoryname.git
+
+If there are any dependencies listed in a package.json file, all you’ll have to do then is npm install and your project is good to go.
+
+Using this technique, you can work on a project at work and continue to add some features at home using different machines. You wouldn’t need to carry your machine everywhere or your code in a flash drive.
