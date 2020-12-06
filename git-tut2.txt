@@ -1,0 +1,19 @@
+Getting started.
+
+To get started with Git, you need to download it to your machine. Head over to https://git-scm.com/ and download the version most compatibe with your system.
+
+During the installation of Git, make sure you choose to run Git on the normal console window as well, this will enable you to run Git on your command prompt using the git command.
+
+Once installed, open Git bash and create a working folder where you’ll test out your project and keep track of changes. Once you “cd” into the working folder, create a file and add random code to it. In my example I’ll create a file called app.js and add the following lines of code.
+
+function sayHi(name) {
+ return "Hello " + name + "!";
+}console.log(sayHi("Onejohi"));
+
+Initialize a git repository.
+
+Every change you make is tracked in a repository, so to use git this will be the first thing you’ll do. To initialize a git repository, use this command while inside the working folder.
+
+git init
+
+This will create the hidden git folder as you can see in the screenshot of my explorer.
