@@ -1,0 +1,29 @@
+Committing changes.
+
+To keep track of you changes, you can make changes to your code like add an extra statement or function. Assume that equivalent to adding around 600 lines of code to add a particular feature on a project like storing some data in localStorage or IndexedDB and manipulating it to fulfil a particular purpose. To keep track of when or who added this feature, you have to add changes to an index then when satisfied with the new lines, you commit the changes from the index to the main branch. Think of the index like a platform that keeps track of how far you’ve gone before adding the incrementing lines of code collectively to the main project. To add files to an index after making changes use this command.
+
+git add app.js
+
+The app.js is the file you want to add. To add multiple files, replace the filename with a period ( . ) to add all files.
+
+When satisfied with adding a couple of changes to your index, it’s high time we commit our changes to the master branch. To ensure you have the correct files on the stage, use this command to check what files are on the stage.
+
+git status
+
+The files with the green font are files that have been successfully added to the stage. The ones marked with red are the ones within the project but haven’t been added to the stage. This means you can have three files, modify all three but commit the changes you’ve made to only one of those files. Your Git bash should look like this.
+Image for post
+Image for post
+
+To commit the changes to master, use the following command.
+
+git commit -m "This is the commit message"
+
+The -m flag specifies that what follows is the commit message. This is a custom message intended to let your future self or other developers what was added in that commit. You can use something like git commit -m “Successfully added a login modal.” to keep track of the things you’ve added to the master branch.
+
+Going through your history.
+
+Let’s say it’s been months since you worked on a particular project but used Git to keep track of it’s progress. You can successfully go through the history by using the command git log to view your commit history. Your Git bash should look something like this…
+Image for post
+Image for post
+
+Which now reminds me that you’ll be prompted to add your personal details before making a commit. Bash will automatically give you the instructions as to how to configure this information, it’s really self explanatory so I don’t even have to explain how that works.
